@@ -16,7 +16,6 @@ export function ProductShowcase() {
                     <div className={"flex items-center justify-center mt-14"}>
                         <Image src={AppScreen} alt={"App Screen"} />
                     </div>
-
                 </div>
             </div>
         </>

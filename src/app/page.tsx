@@ -10,17 +10,17 @@ import {CtaSection} from "@/components/cta-section";
 
 
 export default function Home() {
-  return (
-    <>
-      <Banner />
-      <SiteHeader />
-      <HeroSection />
-      <LogoTicker />
-      <FeaturesSection />
-      <ProductShowcase />
-      <FAQsSection />
-      <CtaSection />
-      <SiteFooter />
-    </>
-  );
+    return (
+        <>
+            <Banner/>
+            <SiteHeader/>
+            <HeroSection/>
+            <LogoTicker/>
+            <FeaturesSection/>
+            <ProductShowcase/>
+            <FAQsSection/>
+            <CtaSection/>
+            <SiteFooter/>
+        </>
+    );
 }
