@@ -1,8 +1,11 @@
+"use client"
+
 import Link from "next/link";
 import {ArrowRight} from "lucide-react";
 import CursorImage from "../assets/images/cursor.png"
 import MessageImage from "../assets/images/message.png"
 import Image from "next/image";
+import {motion} from "framer-motion";
 
 export function HeroSection() {
     return (
@@ -26,15 +29,30 @@ export function HeroSection() {
                             <h1 className={"text-7xl sm:text-9xl font-bold tracking-tighter text-center inline-flex"}>
                                 One Task <br/>at a Time
                             </h1>
-                            <Image
-                                src={CursorImage} alt={"Cursor Image"}
-                                width={200} height={200}
+                            <motion.div
                                 className={"absolute right-[476px] top-[108px] max-sm:hidden"}
-                            />
-                            <Image
-                                src={MessageImage} alt={"Message Image"}
-                                width={200} height={200}
-                                className={"absolute top-[56px] left-[498px] max-sm:hidden"} />
+                                drag dragSnapToOrigin={true}
+                            >
+                                <Image
+                                    src={CursorImage} alt={"Cursor Image"}
+                                    width={200} height={200}
+                                    className={"max-w-none"}
+                                    draggable={false}
+                                />
+                            </motion.div>
+
+                            <motion.div
+                                className={"absolute top-[56px] left-[498px] max-sm:hidden"}
+                                drag dragSnapToOrigin={true}
+                            >
+                                <Image
+                                    src={MessageImage} alt={"Message Image"}
+                                    width={200} height={200}
+                                    className={"max-w-none"}
+                                    draggable={false}
+                                />
+                            </motion.div>
+
                         </div>
                     </div>
                     <div className={"flex justify-center"}>

@@ -1,4 +1,5 @@
 import {Goal, MonitorSmartphone, ShieldCheck} from "lucide-react";
+import {FeatureCard} from "@/components/feature-card";
 
 const features = [
     {
@@ -31,34 +32,16 @@ export function FeaturesSection() {
                             quickly.
                         </p>
                     </div>
-
-
-
                     <div className={"flex items-center justify-center mt-16"}>
                         <div className={"grid sm:grid-cols-3 gap-5 max-w-5xl"}>
                             {features.map((features, index) => (
-                                <section key={index} className={"border border-white/30 px-5 py-10 rounded-2xl text-center sm:flex-1"}>
-                                    <div className={"inline-flex size-14 bg-white text-black items-center justify-center rounded-lg"}>
-                                        {features.icon}
-                                    </div>
-                                    <h3 className={"mt-6 font-bold"}>{features.title}</h3>
-                                    <p className={"mt-2 text-white/70"}>{features.description}</p>
-                                </section>
+                                <FeatureCard
+                                    key={index} title={features.title}
+                                    description={features.description} icon={features.icon}
+                                />
                             ))}
                         </div>
-
-
                     </div>
-
-
-
-
-
-
-
-
-
-
                 </div>
             </div>
         </>
