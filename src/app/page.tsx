@@ -8,7 +8,6 @@ import {ProductShowcase} from "@/components/product-showcase";
 import {FAQsSection} from "@/components/faqs-section";
 import {CtaSection} from "@/components/cta-section";
 
-
 export default function Home() {
     return (
         <>
@@ -22,5 +21,5 @@ export default function Home() {
             <CtaSection/>
             <SiteFooter/>
         </>
-    );
+    )
 }

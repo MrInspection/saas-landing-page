@@ -11,7 +11,7 @@ export default function NotFound() {
             <SiteHeader/>
             <div className={"bg-[#09090B]"}>
                 <div className={"container relative py-8 cursor-not-allowed"}>
-                    <div className="flex h-[745px] shrink-0 items-center justify-center rounded-md border border-dashed">
+                    <div className="flex h-[750px] shrink-0 items-center justify-center rounded-md border border-dashed">
                         <div className="mx-auto flex max-w-[420px] flex-col items-center justify-center text-center">
                             <TriangleAlert className={"h-10 w-10 text-muted-foreground"}/>
                             <h3 className="mt-4 text-2xl font-bold text-muted-foreground">Page not found</h3>
