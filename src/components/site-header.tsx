@@ -12,6 +12,7 @@ export function SiteHeader() {
                         <div className={"absolute w-full top-2 bottom-0 bg-[linear-gradient(to_right,#FCD6FF,#29D8FF,#FFFD80,#F89ABF,#FCD6FF)] blur-md"}></div>
                         <Image src={LogoImage} alt={"Saas Logo"} className={"size-12 relative"}/>
                     </Link>
+
                     <nav className={"flex items-center gap-8 max-md:hidden"}>
                         <Link href={"#"}
                               className={"text-opacity-60 text-white hover:text-opacity-100 transition"}>About</Link>

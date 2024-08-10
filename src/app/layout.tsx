@@ -6,11 +6,31 @@ import "./globals.css";
 const dmSans = DM_Sans({subsets: ["latin"]});
 
 export const metadata: Metadata = {
-    title: "Spectron Labs - SaaS Landing Page",
+    title: "SaaS Landing Page",
     description: "A beautiful dark landing page for a SaaS application.",
     openGraph: {
-        images: 'spectronlabs.png'
-    }
+        images: [
+            {
+                url: "/spectronlabs.png",
+                width: 1200,
+                height: 630,
+                alt: "Moussax • Website",
+            },
+        ],
+    },
+    twitter: {
+        card: "summary_large_image",
+        title: "SaaS Landing Page",
+        description: "A beautiful dark landing page for a SaaS application.",
+        images: [
+            {
+                url: "/spectronlabs.png",
+                width: 1200,
+                height: 630,
+                alt: "Moussax • Website",
+            },
+        ],
+    },
 };
 
 export default function RootLayout({children}: Readonly<{ children: React.ReactNode }>) {
