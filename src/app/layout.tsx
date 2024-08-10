@@ -14,23 +14,10 @@ export const metadata: Metadata = {
                 url: "/spectronlabs.png",
                 width: 1200,
                 height: 630,
-                alt: "Moussax • Website",
+                alt: "Moussax • SaaS Landing Page",
             },
         ],
-    },
-    twitter: {
-        card: "summary_large_image",
-        title: "SaaS Landing Page",
-        description: "A beautiful dark landing page for a SaaS application.",
-        images: [
-            {
-                url: "/spectronlabs.png",
-                width: 1200,
-                height: 630,
-                alt: "Moussax • Website",
-            },
-        ],
-    },
+    }
 };
 
 export default function RootLayout({children}: Readonly<{ children: React.ReactNode }>) {
