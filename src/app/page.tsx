@@ -7,6 +7,7 @@ import {FeaturesSection} from "@/components/features-section";
 import {ProductShowcase} from "@/components/product-showcase";
 import {FAQsSection} from "@/components/faqs-section";
 import {CtaSection} from "@/components/cta-section";
+import {GithubIndicator} from "@/components/github-indicator";
 
 export default function Home() {
     return (
@@ -19,6 +20,7 @@ export default function Home() {
             <ProductShowcase/>
             <FAQsSection/>
             <CtaSection/>
+            <GithubIndicator />
             <SiteFooter/>
         </>
     )
