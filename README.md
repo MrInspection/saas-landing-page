@@ -1,17 +1,20 @@
 # Saas Landing Page
 
-The **SaaS Landing Page** project is designed to **elevate** my front-end development skills by crafting a visually striking dark-themed landing page for a SaaS application using Next.js 14, Shadcn UI, TailwindCSS, and Framer Motion. This initiative not only aims to refine my expertise in these technologies but also to master Framer Motion, enabling the creation of smooth, professional animations that enhance the user experience and add vibrancy to the landing page. 
+![image](public/og-image.png)
 
-It's a compact yet impactful project that sets the foundation for my future endeavors.
+🎨 Design Inspiration : https://www.figma.com/community/file/1347551304372055519
 
-> This project includes elements adapted from "SaaS Website UI Kit" by Framer. Retrieved from [Source Link](https://www.figma.com/community/file/1347551304372055519).
+### 🪛 Technologies used
 
-ㅤ
-![image](public/spectronlabs.png)
+- Next.js 16
+- TailwindCSS v4
+- Typescript
+- Shadcn/ui
+- Motion (originally known as framer-motion)
 
-## How to run this project ?
+### ☑️ How to run this project?
 To run this project on your local environment, follow the following steps :
 - Clone the repository to your local machine or download the source code.
-- Run the command `npm install` in the project directory to install the **required** dependencies
-- Run the command `npm run start` to start the `production build` of the project.
+- Run the command `pnpm install` in the project directory to install the **required** dependencies
+- Run the command `pnpm preview` to start the `production build` of the project.
 - Open your internet browser and go to the following address: [http://localhost:3000](http://localhost:3000)
